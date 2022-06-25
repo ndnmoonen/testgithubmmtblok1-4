@@ -1,0 +1,649 @@
+/*fonts used
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Judson', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/* Dropdown Button */
+
+header {
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+header img {
+    width: 205px;
+    margin-left: 139px;
+    margin-top: 46px;
+}
+
+.navigation {
+    width: 600px;
+    margin-left: 50%;
+    margin-top: -100px;
+}
+
+.nav-city {
+    margin: auto;
+    width: 260px;
+    float: left;
+}
+
+.nav-feature {
+    margin: auto;
+    width: 260px;
+    float: right;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.nav {
+    width: 260px;
+}
+
+.nav h3 {
+    font-size: 1.500em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+.nav hr {
+    margin-top: 16px;
+    height: 2px;
+    border-width: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.nav p {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.3;
+    float: left;
+}
+
+.nav img {
+    margin-left: 112px;
+    width: 15.98px;
+    opacity: 0.3;
+    float: left;
+}
+
+.dropdown {
+    background-color: rgb(80, 65, 255);
+    width: 290px;
+    height: 312px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: none;
+    margin-top: 0px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -5px;
+}
+
+.dropdown::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-city {
+    padding-left: 18px;
+    width: 249.5px;
+    height: 376px;
+    padding-bottom: 30px;
+}
+
+.dropdown-tour {
+    padding-left: 18px;
+    width: 249.5px;
+    height: 376px;
+    padding-bottom: 30px;
+}
+
+.dropdown p {
+    font-size: 1.250em;
+    font-family: 'Archivo', sans-serif;
+    color: rgb(241, 255, 75);
+    padding-top: 20px;
+}
+
+.dropdown hr {
+    height: 1px;
+    width: 249px;
+    border-width: 0;
+    background-color: rgb(241, 255, 75);
+}
+
+.show {
+    display: block;
+}
+
+.dropbtn-2 {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.show-2 {
+    display: block;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.city-marketing {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 0;
+}
+
+.city-marketing img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.city-marketing h2 {
+    font-size: 10em;
+    color: white;
+    font-family: Archivo;
+    text-transform: uppercase;
+    width: 100%;
+    height: 216px;
+    text-align: center;
+    margin: 0;
+    margin-top: -455px;
+}
+
+.booking-ui {
+    width: 976px;
+    height: 259px;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    margin-top: -185px;
+}
+
+.booking-ui-city {
+    width: 352px;
+    height: 70px;
+    background-color: black;
+}
+
+.booking-ui-city h3 {
+    font-family: archivo;
+    font-size: 1.25em;
+    color: white;
+    width: 352px;
+    height: 22px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.booking {
+    width: 976px;
+    height: 189px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.date {
+    width: 260px;
+    height: 75px;
+    padding-top: 44px;
+    margin: 0 auto;
+    margin-left: 36px;
+    display: inline-block;
+}
+
+.date hr {
+    margin-top: 16px;
+    height: 2px;
+    border-width: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.date p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    color: rgb(0, 0, 0, 0.3);
+}
+
+.date img {
+    width: 22px;
+    height: 23px;
+    float: right;
+}
+
+.date input {
+    color: black;
+    font-family: Archivo, sans-serif;
+    font-size: 1.25em;
+    border: none;
+    width: 230px;
+}
+
+.booking-time {
+    width: 260px;
+    height: 75px;
+    padding-top: 44px;
+    margin: 0 auto;
+    margin-left: 36px;
+    display: inline-block;
+    margin-right: 74px;
+}
+
+.booking-time hr {
+    margin-top: 16px;
+    height: 2px;
+    border-width: 0;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.booking-time p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    color: rgb(0, 0, 0, 0.3);
+}
+
+.booking-time img {
+    width: 22px;
+    height: 23px;
+    float: right;
+}
+
+.booking-time input {
+    color: black;
+    font-family: Archivo, sans-serif;
+    font-size: 1.25em;
+    border: none;
+    width: 230px;
+}
+
+.booking-time input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    position: absolute;
+    width: 220px;
+    left: 330px;
+}
+
+.guide-right {
+    width: 254px;
+    margin: 0 auto;
+    margin-top: 47px;
+    margin-right: 36px;
+    display: inline-block;
+}
+
+.guide-btn {
+    width: 254px;
+    height: 70px;
+    background-color: rgb(80, 65, 255);
+    border: 3px solid white;
+    text-align: right;
+    padding-right: 40px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.25em;
+}
+
+.guide-right p {
+    color: rgb(0, 0, 0, 0.3);
+    font-size: 0.875em;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.booking-yellow {
+    width: 100%;
+    height: 393px;
+    background-color: rgb(241, 255, 75);
+    position: relative;
+    z-index: 0;
+    margin-top: -75px;
+}
+
+.booking-text {
+    width: 952px;
+    height: 192px;
+    padding-top: 140px;
+    margin: auto;
+}
+
+.booking-text h2 {
+    width: 352px;
+    height: 155px;
+    color: black;
+    text-transform: uppercase;
+    font-family: archivo;
+    font-size: 3.125em;
+    text-align: right;
+    float: left;
+}
+
+.booking-text p {
+    color: black;
+    font-size: 1.3125em;
+    width: 444px;
+    height: 192px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 34px;
+    float: left;
+    margin-left: 40px;
+}
+
+.path {
+    width: 515px;
+    height: 139px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.path img {
+    width: 515px;
+    height: 515px;
+    margin-top: -180px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.horizontal-scroll-impressions {
+    width: 100%;
+    height: 514px;
+}
+
+.hor-text {
+    width: 588px;
+    height: 155px;
+    margin-left: 10%;
+}
+
+.hor-text p {
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+    font-size: 1.25em;
+}
+
+.hor-text h3 {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(80, 65, 255);
+    text-transform: uppercase;
+    font-size: 3.750em;
+}
+
+.hor-scroll {
+    width: 90%;
+    white-space: nowrap;
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 10%;
+}
+
+.hor-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.hor-scroll img {
+    object-fit: cover;
+    width: 22.5%;
+    height: 359px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.vid-playlist {
+    width: 100%;
+    height: 1168px;
+    margin: auto;
+    margin-top: -90px;
+}
+
+.vid-playlist h3 {
+    width: 600px;
+    font-size: 3.125em;
+    color: black;
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.vid-playlist p {
+    font-size: 1.25em;
+    color: black;
+    font-family: Archivo, sans-serif;
+    text-align: center;
+}
+
+.vid-playlist img {
+    width: 427px;
+    height: 266px;
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-left: 40%;
+}
+
+footer {
+    width: 100%;
+    height: 315px;
+    margin-top: 114px;
+    background-color: black;
+}
+
+.footer-text {
+    width: 904px;
+    height: 106px;
+    margin: auto;
+    padding-top: 71px;
+    margin-left: 10%;
+}
+
+footer p {
+    font-family: Archivo, sans-serif;
+    color: white;
+    font-size: 1.25em;
+}
+
+footer h5 {
+    font-family: Archivo, sans-serif;
+    color: white;
+    font-size: 3.750em;
+    text-transform: uppercase;
+    float: left;
+}
+
+.footer-text img {
+    width: 50px;
+    margin-left: 30px;
+    float: left;
+}
+
+.footer-btn {
+    width: 517px;
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 28px;
+}
+
+.foot-btn {
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.25em;
+}
+
+.number {
+    width: 254px;
+    background-color: black;
+    border: 3px solid white;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.number img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.mail {
+    width: 254px;
+    background-color: rgb(80, 65, 255);
+    border: none;
+    margin-left: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    overflow: visible;
+}
+
+.close {
+    color: rgb(80, 65, 255);
+}
+
+.modal-content {
+    background-color: rgb(80, 65, 255);
+    margin: auto;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 727px;
+    height: 551px;
+}
+
+.modal-content img {
+    width: 205px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 63px;
+}
+
+.modal-content h5 {
+    font-family: Archivo, sans-serif;
+    color: rgb(241, 255, 75);
+    font-size: 3.125em;
+    width: 300px;
+    height: 160px;
+    text-align: right;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 40px;
+}
+
+.modal-content p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 255, 75);
+    font-size: 1.3125em;
+    line-height: 34px;
+    width: 354px;
+    height: 192px;
+    text-align: left;
+    float: left;
+}
+
+.card-scroll {
+    margin: 0;
+    overflow: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.card-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    width: 389px;
+    height: 132px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 4px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.card img {
+    width: 132px;
+    height: 132px;
+    margin: 0;
+    margin-top: -0.2px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.card h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.25em;
+    width: 131px;
+    height: 27px;
+    float: left;
+    margin-top: 36px;
+    margin-left: 21px;
+    margin-bottom: 7px
+}
+
+.card p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 0.875em;
+    width: 202px;
+    height: 20px;
+    float: left;
+    margin-left: 21px;
+}
+
+
+/* breakpoints */
+
+@media screen and (max-width: 1280px) {
+    /*tablet*/
+}
+
+@media screen and (max-width: 720px) {
+    /*mobile*/
+}

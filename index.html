@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>City Guide</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="website logo van Mister Guide">
+        <div class="navigation">
+            <div class="nav-city">
+                <button onclick="myFunction()" class="dropbtn">
+                    <div class="nav">
+                        <h3>Destination</h3>
+                        <div class="clear-both"></div>
+                        <hr>
+                        <p>Browse By Location</p>
+                        <img src="img/icons/noun_arrow.svg">
+                        <div class="clear-both"></div>
+                    </div>
+                </button>
+                <div id="myDropdown" class="dropdown">
+                    <div class="dropdown-city">
+                        <p id="stad-1">Maastricht</p>
+                        <hr>
+                        <p id="stad-2">Aachen</p>
+                        <hr>
+                        <p id="stad-3">Londen</p>
+                        <hr>
+                        <p id="stad-4">Lisabon</p>
+                        <hr>
+                        <p id="stad-5">Schimmert</p>
+                        <hr>
+                        <p id="stad-6">RotjeKnor</p>
+                        <hr>
+                        <p id="stad-7">Dublin</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-feature">
+                <button onclick="myFunction2()" class="dropbtn-2">
+                    <div class="nav">
+                        <h3>Featured Tours</h3>
+                        <div class="clear-both"></div>
+                        <hr>
+                        <p>Browse By Type</p>
+                        <img src="img/icons/noun_arrow.svg">
+                        <div class="clear-both"></div>
+                    </div>
+                </button>
+                <div id="myDropdown-2" class="dropdown">
+                    <div class="dropdown-tour">
+                        <p>Guided Tour</p>
+                        <hr>
+                        <p>Group Tour</p>
+                        <hr>
+                        <p>Couples</p>
+                        <hr>
+                        <p>Audio Tours</p>
+                        <hr>
+                        <p>Boat Tours</p>
+                        <hr>
+                        <p>RotjeKnor</p>
+                        <hr>
+                        <p>Dublin</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <article class="city-marketing">
+            <img src="img/stad.jpg" alt="stad in de achtergrond">
+            <h2 class="pagina-stad">Maastricht</h2>
+        </article>
+
+        <article class="booking-ui">
+            <div class="booking-ui-city">
+                <h3 class="pagina-stad-b">Book a guide in Maastricht</h3>
+            </div>
+            <div class="booking">
+                <div class="date">
+                    <p>Date</p>
+                    <hr>
+                    <input type="text" id="datepicker">
+                    <img src="img/icons/noun_calender.svg">
+                    <div class="clear-both"></div>
+                </div>
+                <div class="booking-time">
+                    <p>Starting Time</p>
+                    <hr>
+                    <input type="time" name="time">
+                    <img src="img/icons/noun_clock.svg">
+                    <div class="clear-both"></div>
+                </div>
+                <div class="guide-right">
+                    <button id="popup" class="guide-btn">Find your guide</button>
+                    <p>We'll choose the best match for you</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="booking-yellow">
+            <div class="booking-text">
+                <h2>Start Exploring Today</h2>
+                <p>
+                    Mister guide offers a great way to tour a city. Book a guide right now Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+                </p>
+                <div class="clear-both"></div>
+            </div>
+        </article>
+
+        <div class="path">
+            <img src="img/path.png">
+        </div>
+
+        <article class="horizontal-scroll-impressions">
+            <div class="hor-text">
+                <p>Looking for a guided tour? Sight seeing in</p>
+                <h3 class="pagina-stad">Maastricht</h3>
+            </div>
+            <div class="hor-scroll">
+                <img src="img/stadshuis.jpg">
+                <img src="img/vrouw-straat.jpg">
+                <img src="img/gebouw.jpg">
+                <img src="img/straat.jpg">
+                <img src="img/stadshuis.jpg">
+            </div>
+        </article>
+
+        <article class="vid-playlist">
+            <img src="img/second-path.png">
+            <h3>Look at all those happy smiles</h3>
+            <p>Follow Mister Guide around the globe</p>
+        </article>
+
+        <div id="modal-popup" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="img/yellow-logo.png" alt="het logo van Mister Guide">
+                <div class="clear-both"></div>
+                <h5>We <br> found a match!</h5>
+                <p>We found the perfect guides for your city! Best yet, the guides are available for you at your time. Let’s get you in touch now.</p>
+                <div class="clear-both"></div>
+                <div class="card-scroll">
+                    <div class="card">
+                        <div class="clear-both"></div>
+                        <img src="img/man.png" alt="Male guide">
+                        <h6>Hugo Marcus</h6>
+                        <p>+6 years tour guide experience</p>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="card">
+                        <div class="clear-both"></div>
+                        <img src="img/vrouw.png" alt="Female guide">
+                        <h6>Maria Miose</h6>
+                        <p>+7 years tour guide experience</p>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="card">
+                        <div class="clear-both"></div>
+                        <img src="img/man.png" alt="Male guide">
+                        <h6>Hugo Marcus</h6>
+                        <p>+6 years tour guide experience</p>
+                        <div class="clear-both"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>Need some help finding the perfect tour?</p>
+            <h5>Contact mr.Guide</h5>
+            <img src="img/mini-logo.png">
+            <div class="clear-both"></div>
+        </div>
+        <div class="footer-btn">
+            <button id="popup-tel" class="foot-btn number">
+                <img src="img/icons/noun_telephone.svg">
+                9100-555-555
+                <div class="clear-both"></div>
+            </button>
+            <button id="popup-mail" class="foot-btn mail">Send us a mail</button>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
