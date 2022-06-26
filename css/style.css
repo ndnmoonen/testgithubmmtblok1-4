@@ -238,6 +238,91 @@ main {
     width: 230px;
 }
 
+.ui-datepicker {
+    background-color: white;
+    border-radius: 0px 5px 5px 5px;
+    width: 230px;
+    padding: 10px 8px 5px 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.ui-datepicker a {
+    text-decoration: none;
+}
+
+.ui-datepicker table {
+    width: 100%;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.ui-datepicker-prev {
+    float: left;
+    background-position: center -30px;
+}
+
+.ui-datepicker-next {
+    float: right;
+    background-position: center 0px;
+    margin-right: 10px;
+}
+
+.ui-datepicker-prev:hover {
+    color: rgb(0, 117, 255);
+}
+
+.ui-datepicker-next:hover {
+    color: rgb(0, 117, 255);
+}
+
+.ui-datepicker thead {
+    color: rgb(0, 0, 0, 0.6);
+    text-align: center;
+    border-bottom: 3px solid rgb(0, 0, 0, 0.2);
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+    color: rgb(0, 117, 255);
+}
+
+.ui-state-default {
+    border-bottom: none;
+    margin-left: 5px;
+    color: black;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0px 2px 0px 2px;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 15px;
+    height: 25px;
+    line-height: 30px;
+}
+
 .booking-time {
     width: 260px;
     height: 75px;
@@ -447,6 +532,83 @@ main {
     margin: auto;
     margin-bottom: 35px;
     margin-left: 40%;
+}
+
+.video {
+    width: 1081px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+#video {
+    width: 976px;
+    margin: 0 auto;
+    margin-left: 52.5px;
+    margin-bottom: 47px;
+}
+
+.circle-arrow {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 987px;
+    margin-top: -310px;
+    width: 88px;
+    height: 88px;
+    background-color: white;
+    border-radius: 60px;
+}
+
+.arrow-btn {
+    margin: 9px 0px 0px 9px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.arrow-btn img {
+    margin: 0 auto;
+    margin-left: -8px;
+    margin-top: -3px;
+    width: 70px;
+    height: 70px;
+}
+
+.button-box button {
+    width: 254px;
+    height: 70px;
+    background-color: white;
+    border: 5px solid rgb(80, 65, 255);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.button-box p {
+    color: rgb(80, 65, 255);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5em;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.inhoud-button {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.inhoud-button img {
+    width: 16px;
+    height: 22px;
+    float: right;
+    margin-top: 3px;
+}
+
+.inhoud-button {
+    width: 183px;
+    height: 27px;
 }
 
 footer {
