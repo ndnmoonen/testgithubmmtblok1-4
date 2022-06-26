@@ -830,6 +830,10 @@ footer h5 {
     margin-left: 21px;
 }
 
+#ui-datepicker-div {
+    display: none;
+}
+
 
 /* breakpoints */
 
@@ -1078,15 +1082,12 @@ footer h5 {
     body {
         min-width: 320px;
     }
-    main {
-        background-color: rgb(242, 193, 209);
-    }
     header {
         height: auto;
     }
     .navigation {
         margin-left: 35%;
-        width: 150px;
+        min-width: 500px;
     }
     header img {
         width: 150px;
@@ -1112,13 +1113,15 @@ footer h5 {
         width: 180px;
         position: relative;
         z-index: 3;
+        margin-left: 40px;
     }
     .nav-feature {
-        display: block;
+        display: inline-block;
         margin: 0 auto;
         float: none;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 40px;
+        margin-left: 60px;
         width: 200px;
     }
     .dropdown {
@@ -1190,30 +1193,40 @@ footer h5 {
         text-align: center;
     }
     .booking-yellow {
-        height: 590px;
+        height: 480px;
     }
     .booking-text {
         margin-top: 150px;
-        width: 300px;
+        width: 500px;
     }
     .booking-text h2 {
         width: 230px;
         height: 120px;
-        text-align: left;
-        float: none;
+        text-align: right;
+        float: left;
         margin: 0 auto;
     }
     .booking-text p {
         width: 230px;
         height: auto;
+        float: right;
+        margin-top: -5px;
     }
     .path {
         width: 100%;
+        height: 150px;
+        position: relative;
+        margin: 0 auto;
     }
     .path img {
-        margin-top: -90px;
         width: 200px;
-        height: 220px;
+        height: 200px;
+        margin: 0 auto;
+        padding: 0;
+        position: absolute;
+        display: block;
+        margin-top: -70px;
+        margin-left: 20%;
     }
     .hor-text {
         width: 250px;
@@ -1255,14 +1268,15 @@ footer h5 {
         margin: 0 auto;
     }
     .video {
-        width: 300px;
+        width: 500px;
     }
     #video {
-        width: 200px;
+        margin: 0 auto;
+        width: 500px;
     }
     .circle-skip {
         margin-left: 235px;
-        margin-top: -120px;
+        margin-top: -20px;
         width: 35px;
         height: 35px;
     }
@@ -1279,10 +1293,14 @@ footer h5 {
         height: 30px;
     }
     .buttons-videos {
-        width: 300px;
-        margin-left: 80px;
+        margin: 0 auto;
+        min-width: 500px;
+        height: 70px;
+        padding-top: 60px;
+        padding-left: 20px;
     }
     .buttons-videos button {
+        display: inline-block;
         width: 100px;
         height: 35px;
         border: 3px solid rgb(80, 65, 255);
@@ -1339,6 +1357,8 @@ footer h5 {
     }
     .footer-btn {
         width: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
         height: auto;
     }
     .footer-btn button {
@@ -1426,5 +1446,112 @@ footer h5 {
     }
     .ui-datepicker td a:hover {
         color: rgb(80, 65, 255);
+    }
+}
+
+@media screen and (max-width: 520px) {
+    /*mobile small*/
+    .nav-city {
+        margin-left: 0px;
+    }
+    .navigation {
+        min-width: 180px;
+        margin: 0 auto;
+    }
+    .nav-feature {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 200px;
+    }
+    .booking-yellow {
+        height: 570px;
+    }
+    .booking-text {
+        margin-top: 150px;
+        width: 300px;
+    }
+    .booking-text h2 {
+        width: 230px;
+        height: 120px;
+        text-align: left;
+        float: none;
+        margin: 0 auto;
+    }
+    .booking-text p {
+        width: 230px;
+        height: auto;
+        float: none;
+        margin-top: 0px;
+    }
+    .video {
+        width: 300px;
+    }
+    #video {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .circle-skip {
+        margin-left: 135px;
+        margin-top: -20px;
+        width: 35px;
+        height: 35px;
+    }
+    .skip-btn {
+        margin-left: 2.7px;
+        margin-top: 2.75px;
+        width: 30px;
+        height: 30px;
+    }
+    .skip-btn img {
+        margin-left: -6px;
+        margin-top: -1px;
+        width: 30px;
+        height: 30px;
+    }
+    .buttons-videos {
+        width: 300px;
+        margin-left: 80px;
+        padding-top: 60px;
+    }
+    .buttons-videos button {
+        width: 100px;
+        height: 35px;
+        border: 3px solid rgb(80, 65, 255);
+    }
+    .buttons-videos p {
+        margin: 0 auto;
+        margin-top: -5px;
+        margin-left: 5px;
+        width: auto;
+    }
+    .vid-button {
+        width: auto;
+    }
+    .buttons-videos img {
+        width: 11px;
+        height: 15px;
+        margin: 0 auto;
+        margin-top: -8px;
+        margin-right: 3px;
+        float: right;
+    }
+    .buttons-videos {
+        display: block;
+        min-width: 200px;
+        margin: 0 auto;
+        margin-top: -30px;
+        margin-left: 15px;
+        width: 230px;
+        height: 100px;
+    }
+    .vid-playlist {
+        height: auto;
+    }
+    .footer-btn {
+        width: 250px;
+        height: auto;
     }
 }
